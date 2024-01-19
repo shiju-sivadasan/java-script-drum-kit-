@@ -1,0 +1,107 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+.main-body
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/nicholas-green-nPz8akkUmDI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.keys
+{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 310px;
+}
+.key
+{
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("./assets/snow-day-beautiful.gif");
+    border-radius: 4px;
+}
+.key kbd
+{
+    font-family: 'Lemon', serif;
+    font-size: 40px
+}
+.key span
+{
+    font-family: 'Lemon', serif;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+.key:hover
+{
+    position: relative;
+    width: 93px;
+    height: 84px;
+    border: 2px solid rgb(237, 245, 0);
+    text-align: center;
+    background-image: url("./assets/snow-day-beautiful.gif");
+    border-radius: 4px;
+    transition: 0.1s;
+}
+.playing
+{
+    position: relative;
+    width: 93px;
+    height: 84px;
+    border: 2px solid rgb(237, 245, 0);
+    text-align: center;
+    background-image: url("./assets/snow-day-beautiful.gif");
+    border-radius: 4px;
+    transition: 0.1s;
+}
+@media  screen and (max-width:412px) {
+    .main-body
+    {
+        background-size: cover;
+        height: 915px;
+    }
+.keys
+{
+    width: 35%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+} 
+.key
+{
+    margin-bottom: 25px;
+    width: 85px;
+    height: 70px;
+}
+.key:hover
+{
+    position: relative;
+    width: 93px;
+    height: 84px;
+    border: 2px solid rgb(237, 245, 0);
+    text-align: center;
+    background-image: url("./assets/snow-day-beautiful.gif");
+    border-radius: 4px;
+    transition: 0.1s;
+}
+.key kbd
+{
+    font-family: 'Lemon', serif;
+    font-size: 20px;
+}
+}

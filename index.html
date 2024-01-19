@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum-kit</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <br />
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <br />
+          <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <br />
+          <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <br />
+          <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <br />
+          <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <br />
+          <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <br />
+          <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <br />
+          <span class="sound">tom</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <br />
+          <span class="sound">tink</span>
+        </div>
+      </div>
+    </div>
+    <audio
+      data-key="65"
+      src="./sounds/mixkit-achievement-win-drums-555.wav"
+    ></audio>
+    <audio
+      data-key="83"
+      src="./sounds/mixkit-atmospheric-wind-drum-roll-swoosh-576.wav"
+    ></audio>
+    <audio data-key="68" src="./sounds/mixkit-bad-joke-drums-2893.wav"></audio>
+    <audio data-key="70" src="./sounds/mixkit-drum-joke-accent-579.wav"></audio>
+    <audio data-key="71" src="./sounds/mixkit-drum-roll-566.wav"></audio>
+    <audio
+      data-key="72"
+      src="./sounds/mixkit-fail-drum-and-bells-571.wav"
+    ></audio>
+    <audio
+      data-key="74"
+      src="./sounds/mixkit-fail-drum-and-xylophone-568.wav"
+    ></audio>
+    <audio data-key="75" src="./sounds/mixkit-losing-drums-2023.wav"></audio>
+    <audio
+      data-key="76"
+      src="./sounds/mixkit-metal-hit-drum-sound-550.wav"
+    ></audio>
+  </body>
+</html>
